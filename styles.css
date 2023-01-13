@@ -1,0 +1,65 @@
+html,
+body {
+  background-color: #1b1b1d;
+}
+
+.txt-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+#txt {
+  text-align: center;
+  margin: auto;
+  font-size: 5rem;
+  font-family: futura-pt, Arial Black, Arial Bold, Gadget, sans-serif;
+  text-transform: uppercase;
+}
+
+.txt--gradient-pink {
+  background-image: linear-gradient(
+    125deg,
+    #ff008470 15%,
+    #fca40080 30%,
+    #ffff0090 40%,
+    #00ff8a 60%,
+    #00cfff 70%,
+    #cc4cfa 85%
+  );
+  background-position: 50% 50%;
+  color: rgba(0, 0, 0, 0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: relative;
+}
+
+.txt--gradient {
+  background-image: linear-gradient(
+      125deg,
+      #00000099 10%,
+      #00000099 20%,
+      #00000099 30%,
+      #00000099 40%,
+      #00000099 50%,
+      #00000099 60%,
+      #00000099 70%,
+      #00000099 80%,
+      #00000099 90%
+    ),
+    linear-gradient(
+      125deg,
+      #ff0084 15%,
+      #fca400 30%,
+      #ffff00 45%,
+      #00ff8a 60%,
+      #00cfff 75%,
+      #cc4cfa 90%
+    );
+  background-position: 0% 100%, 50% 50%;
+  color: rgba(0, 0, 0, 0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: relative;
+}
